@@ -19,7 +19,7 @@ export const About = () => {
                             <img
                                 src="/knight.png"
                                 alt="About Us"
-                                className="w-70 md:w-105 lg:w-120 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105"
+                                className="w-70 md:w-105 lg:w-120 object-contain drop-shadow-2xl transition-transform duration-500 hover:scale-105 -scale-x-100"
                             />
                         </div>
                     </div>
@@ -27,44 +27,47 @@ export const About = () => {
                     {/* RIGHT CONTENT SECTION */}
                     <div className="w-full md:w-1/2 px-4 sm:px-6 md:px-0 text-center md:text-left mt-8 md:mt-0">
 
-                        <p className="text-[#E2874B] font-semibold tracking-wider uppercase text-sm md:text-base mb-2">
-                            About Us
-                        </p>
+                        <div className="flex flex-col items-start">
+                            {/* The decorative gradient line from image_dedf61.png */}
 
-
-                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug md:leading-tight mb-2 md:mb-2">
-                            About Devansh Academy
-
-                        </h2>
-                        <div className="mb-4 md:mb-6 flex justify-center items-center">
-                            <img src="/Vector.svg" alt="vector" className="w-24 md:w-32 h-auto" />
+                            <p className="text-[#E2874B] font-semibold tracking-wider uppercase text-sm md:text-base mb-2">
+                                About Us
+                            </p>
+                            <div className="w-24 h-0.5 bg-linear-to-r from-[#E2874B] via-[#ba713e]/50 to-transparent mb-4" />
                         </div>
 
 
-                        <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-7 md:leading-relaxed mb-6 md:mb-8">
-                            At Devansh Academy, we are passionate about chess and dedicated to helping players of all levels improve their skills.
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug md:leading-tight mb-2 md:mb-2">
+                            About Devang Academy
+
+                        </h2>
+
+
+
+                        {/* Core Description Paragraph */}
+                        <p className="text-gray-600 text-left text-sm sm:text-base md:text-lg leading-7 md:leading-relaxed mb-6 md:mb-8 font-sans max-w-xl">
+                            At Devang Academy, we are passionate about chess and dedicated to helping players of all levels improve their skills.
                             Our expert coaches provide personalized training programs tailored to your unique needs and goals.
                             Whether you're a beginner or advanced player, we help you grow with structured learning and strategy-focused training.
                         </p>
 
-                        {/* Feature points */}
-                        <div className="space-y-3 mb-6 md:mb-8 max-w-lg mx-auto md:mx-0">
-                            <div className="flex items-start gap-2 text-gray-700 text-sm sm:text-base">
-                                <span className="text-green-600 mt-1">✔</span>
+                        {/* Feature points - Stabilized container */}
+                        <div className="space-y-3 mb-6 md:mb-8 max-w-lg w-full flex flex-col items-start">
+                            <div className="flex items-start gap-2 text-gray-700 text-left text-sm sm:text-base">
+                                <span className="text-green-600 mt-0.5 shrink-0">✔</span>
                                 <span>Personalized coaching for every level</span>
                             </div>
 
-                            <div className="flex items-start gap-2 text-gray-700 text-sm sm:text-base">
-                                <span className="text-green-600 mt-1">✔</span>
+                            <div className="flex items-start gap-2 text-gray-700 text-left text-sm sm:text-base">
+                                <span className="text-green-600 mt-0.5 shrink-0">✔</span>
                                 <span>Strategy-based learning approach</span>
                             </div>
 
-                            <div className="flex items-start gap-2 text-gray-700 text-sm sm:text-base">
-                                <span className="text-green-600 mt-1">✔</span>
+                            <div className="flex items-start gap-2 text-gray-700 text-left text-sm sm:text-base">
+                                <span className="text-green-600 mt-0.5 shrink-0">✔</span>
                                 <span>Expert chess mentors & practice sessions</span>
                             </div>
                         </div>
-
                         {/* Button */}
                         <a
                             href="#contact"

@@ -8,7 +8,7 @@ export const ChampionCard = ({
     description: string;
 }) => {
     return (
-        <div className="card w-70 sm:w-[320px] md:w-72  shadow-xl">
+        <div className="card w-70 sm:w-[320px] md:w-72  shadow-md">
             <figure className="h-56 overflow-hidden">
                 <img
                     src={image}
