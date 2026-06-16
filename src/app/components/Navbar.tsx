@@ -8,7 +8,7 @@ import React from 'react';
 export const Navbar = () => {
     return (
         <>
-            <div className="navbar bg-background shadow-sm p-6">
+            <div className="navbar bg-[#120a07] shadow-sm p-6">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,13 +29,13 @@ export const Navbar = () => {
                 <div className="navbar-center hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1 text-lg font-semibold">
                         <li className=" relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#E2874B] after:transition-all after:duration-300 hover:after:w-full hover:text-[#E2874B] transition-colors duration-300">
-                            <a>Home</a>
+                            <a href='#home'>Home</a>
                         </li>
                         <li className=" after:content-[''] relative cursor-pointer after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#E2874B] after:transition-all after:duration-300 hover:after:w-full hover:text-[#E2874B] transition-colors duration-300 ">
-                            <a>About</a>
+                            <a href='#about'>About</a>
                         </li>
                         <li className=" relative cursor-pointer after:content-[''] after:absolute after:left-0 after:-bottom-1 after:h-0.5 after:w-0 after:bg-[#E2874B] after:transition-all after:duration-300 hover:after:w-full hover:text-[#E2874B] transition-colors duration-300 ">
-                            <a>Contact</a>
+                            <a href='#contact'>Contact</a>
                         </li>
                     </ul>
                 </div>

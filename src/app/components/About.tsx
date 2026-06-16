@@ -1,8 +1,9 @@
 'use client';
 
+import vector from '/public/Vector.svg'
 export const About = () => {
     return (
-        <section id="about" className="bg-white py-16">
+        <section id="about" className="bg-white scroll-mt-20">
             <div className="w-full min-h-screen flex items-center bg-white px-4 ">
 
                 <div className="container mx-auto flex flex-col md:flex-row items-center gap-12">
@@ -30,9 +31,15 @@ export const About = () => {
                             About Us
                         </p>
 
-                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug md:leading-tight mb-4 md:mb-6">
+
+                        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug md:leading-tight mb-2 md:mb-2">
                             About Devansh Academy
+
                         </h2>
+                        <div className="mb-4 md:mb-6 flex justify-center items-center">
+                            <img src="/Vector.svg" alt="vector" className="w-24 md:w-32 h-auto" />
+                        </div>
+
 
                         <p className="text-gray-600 text-sm sm:text-base md:text-lg leading-7 md:leading-relaxed mb-6 md:mb-8">
                             At Devansh Academy, we are passionate about chess and dedicated to helping players of all levels improve their skills.
