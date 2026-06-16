@@ -53,8 +53,8 @@ export const Footer = () => {
                         </h3>
 
                         <div className="flex flex-col gap-3 text-gray-300">
-                            <a href="mailto:info@devanshacademy.com">
-                                info@devanshacademy.com
+                            <a href="mailto:devangchessacademy@gmail.com">
+                                devangchessacademy@gmail.com
                             </a>
 
                             <a href="tel:+917304209512">
@@ -65,7 +65,7 @@ export const Footer = () => {
                             </a>
 
                             <p>
-                                123 Main Street, Dehradun, Uttarakhand
+                                Devang Chess Academy YMCA International House, 18, YMCA Rd, Mumbai Central,  Mumbai – 400008.
                             </p>
                         </div>
 
@@ -162,7 +162,7 @@ export const Footer = () => {
 
             {/* Bottom */}
             <div className="border-t border-white/10 py-4 text-center text-gray-400 text-sm">
-                © 2026 Devansh Academy. All Rights Reserved.
+                © {new Date().getFullYear()} Devang Chess Academy. All Rights Reserved.
             </div>
         </footer>
     );

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Hero = () => {
     return (
-        <div className="w-full min-h-[85vh] bg-linear-to-b from-[#120a07] via-[#2d120a] to-[#5a2512] flex items-center">
+        <div className="w-full min-h-[89vh] bg-linear-to-b from-[#120a07] via-[#2d120a] to-[#5a2512] flex items-center">
 
             <div className="container mx-auto px-4 py-10 flex flex-col-reverse md:flex-row items-center justify-between gap-10">
 
