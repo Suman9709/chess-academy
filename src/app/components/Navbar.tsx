@@ -41,12 +41,12 @@ export const Navbar = () => {
                         alt="Devansh Academy"
                         width={60}
                         height={60}
-                        className="object-contain sm:w-[72px] sm:h-[72px]"
+                        className="object-contain sm:w-18 sm:h-18"
                     />
 
                     <div className="flex flex-col leading-none">
                         <span className="text-sm sm:text-lg md:text-xl font-bold text-[#E2874B]">
-                            Devansh
+                            Devang Chess
                         </span>
                         <span className="text-sm sm:text-lg md:text-xl font-bold text-white">
                             Academy

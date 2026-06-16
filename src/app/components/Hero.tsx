@@ -21,7 +21,7 @@ export const Hero = () => {
                     {/* Typography Matched Heading */}
                     <h1 className="font-serif leading-tight mb-6">
                         <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium text-white">
-                            Devang
+                            Devang Chess
                         </span>
                         <span className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-medium italic text-[#bfa37a] mt-1">
                             Academy

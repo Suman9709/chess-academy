@@ -3,40 +3,40 @@ import { ChampionCard } from "./ChampionCard";
 export const Champions = () => {
     const champions = [
         {
-            name: "Champion 1",
+            name: "Anish Aggarwala",
             image:
-                "https://img.daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.webp",
+                "/champ1.jpeg",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         },
         {
-            name: "Champion 2",
+            name: "Tirtha Aggrawal",
             image:
-                "https://img.daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.webp",
+                "/TirthaAgarwal.jpg",
             description:
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
         },
-        {
-            name: "Champion 3",
-            image:
-                "https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp",
-            description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        },
-        {
-            name: "Champion 4",
-            image:
-                "https://img.daisyui.com/images/stock/photo-1494253109108-2e30c049369b.webp",
-            description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        },
-        {
-            name: "Champion 5",
-            image:
-                "https://img.daisyui.com/images/stock/photo-1550258987-190a2d41a8ba.webp",
-            description:
-                "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        },
+        // {
+        //     name: "Champion 3",
+        //     image:
+        //         "/champ1.jpeg",
+        //     description:
+        //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        // },
+        // {
+        //     name: "Champion 4",
+        //     image:
+        //         "/champ1.jpeg",
+        //     description:
+        //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        // },
+        // {
+        //     name: "Champion 5",
+        //     image:
+        //         "/champ1.jpeg",
+        //     description:
+        //         "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        // },
     ];
 
     return (
@@ -55,7 +55,7 @@ export const Champions = () => {
                 </p>
 
 
-                <div className="carousel w-full space-x-6 rounded-box p-4">
+                <div className="carousel w-full space-x-6 rounded-box p-4 items-center justify-center">
                     {champions.map((champion, index) => (
                         <div key={index} className="carousel-item">
                             <ChampionCard {...champion} />

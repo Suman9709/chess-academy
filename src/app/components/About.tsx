@@ -38,7 +38,7 @@ export const About = () => {
 
 
                         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-snug md:leading-tight mb-2 md:mb-2">
-                            About Devang Academy
+                            About Devang Chess Academy
 
                         </h2>
 
