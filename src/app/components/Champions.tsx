@@ -42,12 +42,18 @@ export const Champions = () => {
     return (
         <section id="champions" className="py-16 px-4 bg-white">
             <div className="container mx-auto">
-                <h2 className="text-3xl md:text-4xl font-bold text-center text-black mb-2">
-                    Our Champions
-                </h2>
-                <div className="mb-4 md:mb-6 flex justify-center items-center">
-                    <img src="/Vector.svg" alt="vector" className="w-24 md:w-32 h-auto" />
+                <div className="flex flex-col items-center justify-center text-center">
+                    {/* Centered line fading out beautifully on both sides */}
+
+                    <p className="text-black  font-semibold tracking-wider uppercase text-lg md:text-2xl mb-2">
+                        Our Champions
+                    </p>
+                    <div className="w-44 h-0.5 bg-linear-to-r from-transparent via-[#E2874B] to-transparent mb-4" />
                 </div>
+                <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
+                    The brilliant minds nurtured at Devang Academy who are making their mark in the world of professional chess.
+                </p>
+
 
                 <div className="carousel w-full space-x-6 rounded-box p-4">
                     {champions.map((champion, index) => (
